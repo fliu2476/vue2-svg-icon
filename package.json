@@ -1,0 +1,20 @@
+{
+  "name": "vue2-svg-icon",
+  "version": "1.0.0",
+  "description": "A solution for svg icon in vue2.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "origin https://github.com/fliu2476/vue2-svg-icon.git"
+  },
+  "keywords": [
+    "vue2",
+    "svg",
+    "icon"
+  ],
+  "author": "fliu2476",
+  "license": "ISC"
+}
