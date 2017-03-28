@@ -1,6 +1,6 @@
 {
   "name": "vue2-svg-icon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A solution for svg icon in vue2.0",
   "main": "index.js",
   "scripts": {
