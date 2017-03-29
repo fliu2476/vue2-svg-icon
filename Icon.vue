@@ -1,5 +1,5 @@
 <template>
-  <svg version="1.1" :class="clazz" :role="label ? 'img' : 'presentation'" :aria-label="label" :width="w"
+  <svg version="1.1" :class="[clazz, 'icon-' + name]" :role="label ? 'img' : 'presentation'" :aria-label="label" :width="w"
        :height="h" :viewBox="box">
     <path :d="path.d" :fill="path.fill" :stroke="path.stroke" v-for="path in icon.paths"/>
   </svg>
@@ -9,6 +9,14 @@
   .svg-icon {
     display: inline-block;
     fill: currentColor;
+  }
+
+  .svg-icon.flip-horizontal {
+    transform: scale(-1, 1);
+  }
+
+  .svg-icon.flip-vertical {
+    transform: scale(1, -1);
   }
 
   .svg-icon.spin {
