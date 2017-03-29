@@ -13,9 +13,9 @@ npm install vue2-svg-icon --save-dev
 - **this dir are not supported to be configured now**  
 - **src folder should be in the same folder with node_modules**
 
-### 3. import vue-svg-icon in your main.js
+### 3. import vue2-svg-icon in your main.js
 ```
-import Icon from 'vue-svg-icon/Icon.vue';
+import Icon from 'vue2-svg-icon/Icon.vue';
 Vue.component('icon', Icon);  
 ```
 ### 4. use the svg icon in your vue!
@@ -27,7 +27,7 @@ Vue.component('icon', Icon);
 ```
 
 ### Trouble Shooting
-1. cannot find corresponding .svg file in vue-svg-icon/svg when you inject it in main.js, please keep the name in main.js and the filename exactly same.
+1. cannot find corresponding .svg file in vue2-svg-icon/svg when you inject it in main.js, please keep the name in main.js and the filename exactly same.
 ```
 [Vue warn]: Invalid prop: custom validator check failed for prop "name". 
 ```
@@ -35,7 +35,7 @@ Vue.component('icon', Icon);
 ```
 This dependency was not found:
    
-   * !xml-loader!../../src/svg in ./~/.6.4.1@babel-loader/lib!./~/.11.1.4@vue-loader/lib/selector.js?type=script&index=0!./~/.1.2.8@vue-svg-icon/Icon.vue
+   * !xml-loader!../../src/svg in ./~/.6.4.1@babel-loader/lib!./~/.11.1.4@vue-loader/lib/selector.js?type=script&index=0!./~/.1.2.8@vue2-svg-icon/Icon.vue
    
    To install it, you can run: npm install --save !xml-loader!../../src/svg
 ```
