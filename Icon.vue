@@ -22,7 +22,7 @@
         }
       },
       icon() {
-        let xml = require(`!xml-loader!../../src/svg/${this.name}.svg`);
+        let xml = require(`!xml-loader!../../src/assets/svg/${this.name}.svg`);
         const t = xml.svg.$.viewBox.split(' ');
         // console.info(`src/svg/${this.name}.svg has been loaded`);
         return {

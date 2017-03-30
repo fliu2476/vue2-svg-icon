@@ -1,7 +1,7 @@
 # vue2-svg-icon  
 > 本项目是在cenkai88的[vue-svg-icon](https://github.com/cenkai88/vue-svg-icon)项目上修改的，移除了一些我不需要的功能，props也做了一些修改。请移步[vue-svg-icon](https://github.com/cenkai88/vue-svg-icon)
 
-##### v1.3.1
+##### v1.3.2
 
 
 ## Usage
@@ -9,7 +9,7 @@
 ```
 npm install vue2-svg-icon --save-dev
 ```
-### 2. put your svg into src/svg/
+### 2. put your svg into src/assets/svg/
 - **this dir are not supported to be configured now**  
 - **src folder should be in the same folder with node_modules**
 
