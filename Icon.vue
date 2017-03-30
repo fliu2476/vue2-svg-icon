@@ -1,5 +1,5 @@
 <template>
-  <svg version="1.1" :class="['icon-' + name]" :width="w":height="h" :viewBox="box">
+  <svg version="1.1" :class="[clazz,'icon-' + name]" :width="w":height="h" :viewBox="box">
     <path :d="path.d" :fill="path.fill" :stroke="path.stroke" v-for="path in icon.paths"/>
   </svg>
 </template>
@@ -16,10 +16,15 @@
       h: [Number, String]
     },
     computed: {
+      calazz() {
+        return {
+          'svg-icon': true
+        }
+      },
       icon() {
         let xml = require(`!xml-loader!../../src/svg/${this.name}.svg`);
         const t = xml.svg.$.viewBox.split(' ');
-        console.info(`src/svg/${this.name}.svg has been loaded`);
+        // console.info(`src/svg/${this.name}.svg has been loaded`);
         return {
           width: t[2],
           height: t[3],
@@ -35,3 +40,10 @@
     },
   }
 </script>
+<style scoped>
+  .svg-icon{
+    display: inline-block;
+    vertical-align: middle;
+    fill: currentColor;
+  }
+</style>
