@@ -16,7 +16,7 @@
       h: [Number, String]
     },
     computed: {
-      calazz() {
+      clazz() {
         return {
           'svg-icon': true
         }

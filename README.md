@@ -1,7 +1,7 @@
 # vue2-svg-icon  
 > 本项目是在cenkai88的[vue-svg-icon](https://github.com/cenkai88/vue-svg-icon)项目上修改的，移除了一些我不需要的功能，props也做了一些修改。请移步[vue-svg-icon](https://github.com/cenkai88/vue-svg-icon)
 
-##### v1.3.0
+##### v1.3.1
 
 
 ## Usage
